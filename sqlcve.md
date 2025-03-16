@@ -7,7 +7,7 @@ add_deductions.php
 
 ## describe
 
-An unrestricted SQL injection attack exists in payroll-management-system in add_deductions.php. The parameters that can be controlled are as follows: $bir. This function executes the id parameter into the SQL statement without any restrictions. A malicious attacker could exploit this vulnerability to obtain sensitive information in the server database.
+An unrestricted SQL injection attack exists in payroll-management-system in add_deductions.php. The parameters that can be controlled are as follows: $bir. This function executes the $bir parameter into the SQL statement without any restrictions. A malicious attacker could exploit this vulnerability to obtain sensitive information in the server database.
 
 **Code analysis**    
 
